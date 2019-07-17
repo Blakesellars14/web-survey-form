@@ -2,10 +2,15 @@
 /* July 16, 2019 */
 html,
 body {
-  background-color: #a9d7d1;
+  /*background-color: #330000; */
+  background-image: linear-gradient(#330000, #003b06);
   text-align: center;
   font-family: 'Raleway', Helvetica, sans-serif;
   min-width: 320px;
+}
+
+#title {
+  color: #f12029;
 }
 
 header {
@@ -15,7 +20,7 @@ header {
 }
 
 #form-outer {
-  background-color: rgb(250, 250, 250);
+  background-color: #ffffff;
   margin: 0 auto;
   border-radius: 4px;
   width: 75%;
@@ -45,7 +50,7 @@ header {
   width: 280px;
   padding: 5px;
   margin: 10px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid darkred;
   border-radius: 2px;
 }
 
@@ -60,23 +65,23 @@ input[type="checkbox"] {
 }
 
 #submit {
-  background-color: #59ace0;
+  background-color: #330000;
   border-radius: 4px;
   color: white;
-  font-size: 1em;
-  height: 40px;
+  font-size: 1eurvey Fo
+  height: 40px;urvey Fo
   width: 96px;
-  margin: 10px;
-  border: 0px solid;
+  margin: 10px;urvey Fo
+  border: 0px survey Fo
 }
 
 .dropdown {
-  height: 35px;
+  height: 35px;urvey Fo
   width: 140px;
   padding: 5px;
   margin: 10px;  
   margin-top: 15px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid darkred;
   border-radius: 2px;
 }
 
@@ -113,3 +118,4 @@ input[type="checkbox"] {
     width: 100%;
   }
 }
+
